@@ -26,7 +26,7 @@
         <PackageId>Project</PackageId>
         <Version>0.0.1-alpha</Version>
         <Authors>Lucas Pimentel</Authors>
-        <Copyright>Copyright (c) Lucas Pimentel 2025</Copyright>
+        <Copyright>Copyright (c) Lucas Pimentel 2026</Copyright>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <PackageReadmeFile>readme.md</PackageReadmeFile>
         <IncludeSymbols>true</IncludeSymbols>
