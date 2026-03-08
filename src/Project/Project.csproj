@@ -24,20 +24,15 @@
 
         <!-- NuGet -->
         <PackageId>Project</PackageId>
-        <Version>0.0.1-alpha</Version>
+        <Version>0.0.1-alpha.1</Version>
         <Authors>Lucas Pimentel</Authors>
         <Copyright>Copyright (c) Lucas Pimentel 2026</Copyright>
-        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-        <!--
-        <Company>Datadog</Company>
-        <RepositoryUrl>https://github.com/lucaspimentel/dd-opentelemetry-exporter-dotnet.git</RepositoryUrl>
+        <RepositoryUrl>https://github.com/lucaspimentel/template-dotnet-console.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        -->
-
-        <!-- SourceLink -->
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
     </PropertyGroup>
 </Project>
