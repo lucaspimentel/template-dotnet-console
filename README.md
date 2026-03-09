@@ -2,6 +2,8 @@
 
 TODO: Add description.
 
+Pre-built binaries support Windows and Linux. macOS is supported when built from source.
+
 ## Installation
 
 ### Scoop (Windows)
