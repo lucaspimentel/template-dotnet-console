@@ -4,7 +4,16 @@ TODO: Add description.
 
 ## Installation
 
+### Scoop (Windows)
+
+```powershell
+scoop bucket add lucaspimentel https://github.com/lucaspimentel/scoop-bucket
+scoop install PROJECT
+```
+
 ### Download pre-built binary
+
+Requires PowerShell 7+.
 
 ```pwsh
 irm https://raw.githubusercontent.com/lucaspimentel/PROJECT_REPO/main/install-remote.ps1 | iex
@@ -12,13 +21,15 @@ irm https://raw.githubusercontent.com/lucaspimentel/PROJECT_REPO/main/install-re
 
 ### Build from source
 
-Requires PowerShell 7+ and .NET 10 SDK.
+Requires PowerShell 7+ and [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
 
 ```pwsh
 git clone https://github.com/lucaspimentel/PROJECT_REPO
 cd PROJECT_REPO
 ./install-local.ps1
 ```
+
+Both scripts install to `~/.local/bin/PROJECT`. Ensure that directory is in your `PATH`.
 
 ## Usage
 
