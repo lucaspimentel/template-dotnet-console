@@ -2,7 +2,8 @@ name: CI
 
 # TODO: Update these to match your project
 env:
-  PROJECT_NAME: Project
+  ASSEMBLY_NAME: Project           # AssemblyName from csproj (used for archive/release asset names)
+  PROJECT_NAME: Project            # csproj project name without extension (used for artifact output paths)
   PROJECT_FILE: src/Project/Project.csproj
 
 on:
@@ -56,5 +57,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ env.PROJECT_NAME }}-${{ matrix.rid }}
+        name: ${{ env.ASSEMBLY_NAME }}-${{ matrix.rid }}
         path: artifacts/publish/${{ env.PROJECT_NAME }}/release_${{ matrix.rid }}/

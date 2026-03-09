@@ -45,10 +45,10 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
-# TODO: Update these to match your project name and GitHub repository
-$ProjectName = 'PROJECT'
+# TODO: Update these to match your project
+$ProjectName = 'PROJECT'           # AssemblyName from csproj (the executable name)
 $GitHubOwner = 'lucaspimentel'
-$GitHubRepo = 'PROJECT_REPO'
+$GitHubRepo = 'PROJECT_REPO'       # GitHub repository name
 
 # Determine runtime identifier and archive extension
 $rid = if ($IsWindows) {
