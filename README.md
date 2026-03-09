@@ -1,5 +1,7 @@
 # PROJECT
 
+[![CI](https://github.com/lucaspimentel/PROJECT_REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/lucaspimentel/PROJECT_REPO/actions/workflows/ci.yml) [![Release](https://github.com/lucaspimentel/PROJECT_REPO/actions/workflows/release.yml/badge.svg)](https://github.com/lucaspimentel/PROJECT_REPO/actions/workflows/release.yml)
+
 TODO: Add description.
 
 Pre-built binaries support Windows and Linux. macOS is supported when built from source.
